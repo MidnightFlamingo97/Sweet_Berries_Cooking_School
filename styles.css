@@ -1,4 +1,8 @@
 /* Global settings */
+/* Good job.
+Your HTML passed the HTML validator but your CSS needs a little improvement to pass the CSS Validator. */
+
+/* Grid template areas haven’t been used to correctly display items at different positions in different viewports. */
 * {
     padding: 0;
     margin:0;
@@ -17,6 +21,7 @@ body {
 }
 
 /* Fonts & text */
+/* Great work on being detailed oriented and adding the right fonts to each component of the website. */
 h1, h2, h3 {
     font-family: 'Roboto Serif';
     font-style: normal;
@@ -86,6 +91,7 @@ button:hover {
 }
 
 /* header */
+/* Nice work on using Flexbox properly to create some of the components. */
 header {
     height:100px;
     display: flex;
@@ -127,6 +133,8 @@ header .btn1:hover{ /*inverse on hover*/
 .banner-text-container h1 {
     margin-bottom: 32px;
 }
+/* I see that you added a div with a background-image on it to make the image responsive.
+However, there’s no need for that because you can just use an img tag and give the width 100% to make it fully responsive. */
 .image-container {
     flex: 1 1 600px;
     height: 440px;
@@ -137,6 +145,7 @@ header .btn1:hover{ /*inverse on hover*/
 }
 
 /* cards section */
+/* Your grid has 2 columns. There are 3 columns in the Figma file. */
 .card-container {
     height: 808px;
     display: grid;
@@ -145,6 +154,7 @@ header .btn1:hover{ /*inverse on hover*/
     padding:40px 80px;
     margin-bottom: 80px;
 }
+/* Beautiful work on using CSS Grid and flex box together! */
 .card {
     background: #FFFFFF;
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
@@ -160,6 +170,7 @@ header .btn1:hover{ /*inverse on hover*/
     background-color: var(--accent);
     box-shadow: none;
 }
+/* Great work on using position absolute and relative to position the icons on the edge of the card */
 .icon {
     position: absolute;
     right:50px;
@@ -220,6 +231,8 @@ footer img {
 }
 
 /* mobile media queries */
+/* Great work on achieving 90% of the functional hamburger menu.
+There is some room for improvement where when you click on the hamburger menu, they should appear as a list below the header. */
 @media (max-width:700px) {
     header {
         height:80px;
